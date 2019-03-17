@@ -1,0 +1,217 @@
+
+/*THIS IS THE BACKGROUND AND BASIC STYLING FOR THE BACKGROUND*/
+
+/*styling for the html and body*/
+body,html {
+	height: 100%;
+	margin:0 auto;
+	font-size: 15px;
+	font-family: "lato",sans-serif;
+	font-weight:400;
+	line-height: 1.8em;
+	color: #666;
+}
+/*navigation bar*/
+.navbar {
+	color:white;
+	padding:25px;
+	font-family:"lato",sans-serif;
+	position: fixed;
+	width:100%;
+	height:40px;
+	transition:.4s;
+	font-size:30px;
+	text-align:right;
+	right:0px;
+	top:0px;
+	word-spacing:30px;
+}
+
+.navbar a {
+	text-decoration:none;
+	color:white;
+}
+.navbar{
+	background: rgba(0,0,0,2);
+
+}
+
+
+
+/*editing for background pictures*/
+.section1,.section2,.sect1{
+	position: relative;
+	opacity: 0.99;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    /* fixed=parallax
+       scroll=normal*/
+	background-attachment: fixed;
+}
+
+/*background pictures*/
+
+.section1{
+	min-height: 100px;
+}
+
+.section2{
+	position:relative;
+	min-height: 600px;
+	background-color:#F8F8FF;
+	overflow:auto;
+	padding:0px;
+	margin:0px;
+}
+
+/*styling for class section*/
+.sect2main {
+	text-align:center;
+	left:15px;
+	padding: 50px;
+	top:50px;
+}
+
+.sect1,.sect2{ 
+   text-align:center;
+   padding:20px 80px;
+  }
+
+.sect2part1 {
+	margin:auto;
+	left:70px;
+	position:absolute;
+	max-width:350px;
+	
+	
+}
+
+.sect2part2 {
+	margin:auto;
+	position:absolute;
+	max-width: 350px;
+	right:15px;
+	padding:5px,5px,5px,5px;
+}
+.sect2part3 {
+	margin:auto;
+	position:absolute;
+	max-width:350px;
+	left:500px;
+	padding:10px,10px,10px,10px;
+}
+
+.sect2part1,.sect2part2,.sect2part3 {
+	font-size:18px;
+	clear:none;
+	margin:0px,0px,0px,0px;
+	padding:25px;
+	font-weight:lighter;
+}
+
+
+/*background color for the text sections*/
+
+.sect1 {
+	min-height: 600px;
+	background-color:#2E2E2E;
+	color:#ddd;
+}
+
+.sect2 {
+	min-height: 50px;
+	background-color:#2E2E2E;
+    font-size:30px;
+	color:#F8F8FF;
+}
+
+/*styling for span class content*/
+.margin1 {
+
+	position: absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	color:white;
+	font-size: 45px;
+	letter-spacing:8px;
+	text-transform:capitalize;
+}
+
+@media (max-width: 568px) {
+	.section1,.section2, [
+	background-attachment:scroll;]
+}
+
+
+
+
+/* THIS IS THE FOREGROUND STYLING*/
+
+#sect1div1 {
+   width:80%; 
+   float:right;
+   margin-left: :80px;
+   top:80px;
+   font-size:20px;
+}
+
+#sect1div2 {
+   left:-30px;
+   top:80px;
+   position:absolute;
+   float:left;
+   font-size:30px;
+   
+}
+
+.photoicon {
+	width: 140px;
+	height: 140px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size:140px;
+	border-radius:50%;
+}
+
+#aboutme {
+	font-family:'Concert One', cursive;
+	font-size: 30px;
+	padding: 20px;
+}
+
+/*styling for icons*/
+.fa{	
+      padding: 20px;
+      font-size: 30px;
+      width: 28px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      color:#808080;
+    
+}
+
+.secttext1 {
+	background-attachment:fixed;
+	background-image:url();
+	position:absolute;
+	padding:20px;
+	width:900px;
+	height:550px;
+    right: 200px;
+    top:40px;
+	text-align: center;
+    font-size: 15px;
+    color:#000000;
+    font-weight:bold;
+    background-color:#ffffff;;
+    opacity:1;
+
+}
+.secttext2 {
+	background-color:#F8F8FF;
+	font-size:25px; 
+}
