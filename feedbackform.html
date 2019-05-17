@@ -52,32 +52,31 @@
 		</div>
 
 		<div class="col-lg-6">
-		<form action="http://formspree.io/you@email.com"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send">
+		
 
             <h1>message me</h1>
             <hr class="light">
-            <form method="post" action="send_mail.php">
+            <form action="http://formspree.io/joshuaagarjj@gmail.com" method="POST">
 
             <h2>your Name</h2>
-            <input type="text" name="first_name" required>
+            <input type="name" name="_replyto" method="POST">
             </p>
-
-           
 
             <p>
             <h2>your Email </h2>
-            <input type="email" name="email_address">
+            <input type="email" name="_replyto" method="POST">
             
             </p>
 
             <p>
             <h2>Message</h2>
-            <textarea name="comments" maxlength="500"></textarea>
+            <textarea name="body"  method="POST" maxlength="500"></textarea>
           
             </p>
-
-            <p><button>Send</button></p>
+            <input type="submit" value="Send">
+          
             </form>
+
 
            
 
